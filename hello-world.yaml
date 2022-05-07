@@ -11,4 +11,4 @@ steps:
   commands:
   - echo $PATH
   - id -un
-  - pip3 install codemagic-cli-tools
+  - android-app-bundle -h
