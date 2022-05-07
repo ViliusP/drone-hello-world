@@ -11,4 +11,4 @@ steps:
   commands:
   - echo $PATH
   - id -un
-  - /Applications/Xcode.app/Contents/Developer/usr/bin/python3 -m pip install --upgrade pip
+  - pip3 install codemagic-cli-tools
