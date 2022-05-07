@@ -11,4 +11,5 @@ steps:
   commands:
   - echo $PATH
   - id -un
+  - flutter build apk
   - android-app-bundle -h
