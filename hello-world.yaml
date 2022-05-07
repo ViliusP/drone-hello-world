@@ -10,4 +10,5 @@ steps:
 - name: greeting
   commands:
   - echo $PATH
+  - pip3 install codemagic-cli-tools 
   - android-app-bundle
